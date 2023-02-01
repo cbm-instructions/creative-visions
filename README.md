@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Frideview"
 date:   2023-02-01 15:04:23
 ---
 
