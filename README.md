@@ -100,6 +100,17 @@ Um eine robuste und feuchtigkeitsgeschützte Box für unsere Projektkomponenten 
 
 ### Das Display verpacken
 
+![Display](images/creative-visions/Display_in_Gehaeuse_Vorderseite.png "Display")
+
+Als Display wird ein E-Paper Display(Waveshare 7.5 Inch) benutzt. Um es außen am Kühlschrank zu befestigen wird ein Gehäuse aus Acrylglas [lasergecuttet](images/creative-visions/plattegroß.svg). Dabei wird dasselbe zweimal gecuttet, einmal durchsichtig für die Vorderseite, einmal in beliebiger Farbe für die Rückseite.
+In die Vorderseite wird nun noch ein Loch zur befestigung des Knopfs zum Auslösen der Kamera gebohrt.
+In die Rückseite wird nun noch ein Loch zur befestigung des Magneten gebohrt, dabei können je nach Saugnapf oder Magnet auch mehrere Löcher gebohrt werden.
+![Display Rückseite](images/creative-visions/Display_in_Gehaeuse_Vorderseite.png "Display Rückseite")
+
+Dann legt man zuerst die das Display mittig auf die durchsichtige Acryl-Platte. Danach kommt sehr weicher Schaumstoff (z.B. aus der Bildschirmverpackung) von hinten auf das Display. Als Letztes kommt die Acryl-Rückseite, mit dem Saugnapf darauf. Zusammengehalten wird das ganze von vier Schrauben mit Muttern in den Ecken. Beim Zusammenschrauben darauf achten, dass das Display und die Schraube om Saugnapf sich nicht berühren und im zweifelsfall die Acryl unterlegscheiben zwischen Vorder- und Rückseite mitverschrauben. Im Bild sind 3 solcher Unterlegscheiben zwischen und eine hintendran verwendet worden.
+
+![Verschraubung Gehäuse](images/creative-visions/Display_Gehaeuse_Stapel.png "Verschraubung Gehäuse")
+
 
 ### Verkabelung
 
