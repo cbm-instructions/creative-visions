@@ -14,7 +14,6 @@ date:   2023-02-01 15:04:23
 * [Bauanleitung](#bauanleitung)
   + [Zuschneiden der Box](#zuschneiden-der-box)
   + [Zusammensetzen der Box](#zusammensetzen-der-box)
-  + [Die Box füllen](#die-box-füllen)
   + [Das Display verpacken](#das-display-verpacken)
   + [Verkabelung](#verkabelung)
   + [Den Arduino programmieren](#den-arduino-programmieren)
@@ -95,9 +94,6 @@ Um eine robuste und feuchtigkeitsgeschützte Box für unsere Projektkomponenten 
 
 
 ### Zusammensetzen der Box
-
-
-### Die Box füllen
 
 
 ### Das Display verpacken
