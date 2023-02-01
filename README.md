@@ -23,7 +23,7 @@ date:   2023-02-01 15:04:23
 * [Ausblick](#ausblick)
 <!-- TOC -->
 
-![Test](/images/creative-visions/test.jpeg)
+![Test](/images/creative-visions/test.png)
 
 ## Vorbereitung
 
