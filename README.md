@@ -23,7 +23,6 @@ date:   2023-02-01 15:04:23
 * [Ausblick](#ausblick)
 <!-- TOC -->
 
-## Vorbereitung
 Hast du es satt, jedes Mal den Kühlschrank zu öffnen, um nachzusehen, was du noch im Haus hast? Mit FridgeView von CreativeVision hast du immer einen Überblick über deine Vorräte, ohne den Kühlschrank zu öffnen. Die eingebaute Kamera projiziert das Innere des Kühlschranks auf ein E-Paper-Display an der Vorderseite, so dass du jederzeit weißt, was du hast und was du noch brauchst. Spare Zeit, Energie und vermeide unnötige Einkäufe mit FridgeView.  
 ![Test](/images/creative-visions/Passivbetrieb.png)
 ![Test](/images/creative-visions/Aktivbetrieb.png)
@@ -37,6 +36,9 @@ Unser Ziel bei CreativeVision war es, Menschen dazu zu motivieren, ihren Energie
 
 POV: Ein kluger Blick auf den Energieverbrauch in Ihrem Kühlschrank. 
 „Julia ist es leid, dass sie ihren Kühlschrank ständig öffnen muss, um nachzusehen, was sie noch hat. Sie weiß, dass dies nicht nur Zeit, sondern auch Energieverschwendung bedeutet. Sie wünscht sich eine Lösung, die ihr einen Einblick in den Inhalt ihres Kühlschranks gibt, ohne dass sie ihn ständig öffnen muss.“ 
+
+## Vorbereitung
+
 ### Material
 - 1 x Arduino 
 
