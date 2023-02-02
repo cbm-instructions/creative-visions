@@ -134,8 +134,8 @@ Für den Arduino Nano sowie für den AI-Thinker ESP32-CAM Microcontroller wird d
 
 1) Öffne `Tools > Board` in der Arduino IDE und wähle den Arduino Nano.
 2) Öffne `Tools > Port` und wähle den COM port, mit dem der Arduino Nano verbunden ist. 
-3) Öffne unter `File >> open...` die `Arduino-Nano.io` in dem `Arduino-Nano` Ordner, den man in diesem Repository findet.
-4) Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools >> Manage Libraries...`) installiert werden:
+3) Öffne unter `File > open...` die `Arduino-Nano.io` in dem `Arduino-Nano` Ordner, den man in diesem Repository findet.
+4) Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools > Manage Libraries...`) installiert werden:
 - Adafruit NeoPixel
 5. Auf den Upload-Button klicken
 
@@ -163,8 +163,8 @@ Um das ESP32-Cam Board mit dem PC zu verbinden wird ein FTDI programmer benötig
 
 1) Öffne `Tools > Board` in der Arduino IDE und wähle die AI-Thinker ESP32-CAM.
 2) Öffne `Tools > Port` und wähle den COM port, mit dem der ESP32-CAM verbunden ist. 
-3) Öffne unter `File >> open...` die `ESP32-CAM.ino` in dem `ESP32-CAM` Ordner, den man in diesem Repository findet.
-4) Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools >> Manage Libraries...`) installiert werden:
+3) Öffne unter `File > open...` die `ESP32-CAM.ino` in dem `ESP32-CAM` Ordner, den man in diesem Repository findet.
+4) Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools > Manage Libraries...`) installiert werden:
 - Adafruit BusIO
 - Adafruit GFX Library
 - Adafruit seesaw Library
