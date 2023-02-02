@@ -16,7 +16,7 @@ date:   2023-02-01 15:04:23
   + [Zusammensetzen der Box](#zusammensetzen-der-box)
   + [Das Display verpacken](#das-display-verpacken)
   + [Verkabelung](#verkabelung)
-  + [Den Arduino programmieren](#den-arduino-programmieren)
+  + [Programmieren](#programmieren)
   + [Alles zusammenbringen](#alles-zusammenbringen)
 * [Funktionsweise](#funktionsweise)
 * [Ausblick](#ausblick)
