@@ -113,6 +113,17 @@ Dann legt man zuerst die das Display mittig auf die durchsichtige Acryl-Platte. 
 ### Verkabelung
 ![Verkabelung](images/creative-visions/Verschaltung_Steckplatine.jpg)
 
+| ESP32-CAM | ePaper Display |
+|-----------|----------------|
+| 3v3       | 3v3            |
+| GND       | GND            |
+| IO2       | BUSY           |
+| IO4       | DC             |
+| IO14      | SCK            |
+| IO15      | CS             |
+| IO13      | MOSI           |
+| IO12      | RST            |
+
 ### Den Arduino programmieren
 
 
