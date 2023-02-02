@@ -134,7 +134,7 @@ Für den Arduino Nano sowie für den AI-Thinker ESP32-CAM Microcontroller wird d
 
 1) Öffne `Tools > Board` in der Arduino IDE und wähle den Arduino Nano.
 2) Öffne `Tools > Port` und wähle den COM port, mit dem der Arduino Nano verbunden ist. 
-3) Öffne unter `File >> open...` die `Arduino-Nano.io` in dem `Arduino-Nano Ordner`, den man in diesem Repository findet.
+3) Öffne unter `File >> open...` die `Arduino-Nano.io` in dem `Arduino-Nano` Ordner, den man in diesem Repository findet.
 4) Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools >> Manage Libraries...`) installiert werden:
 - Adafruit NeoPixel
 5. Auf den Upload-Button klicken
