@@ -177,10 +177,10 @@ Zuerst wird der LED-Ring und die Linse der ESP32-CAM in der Wand 1 der Box einge
 
 ## Funktionsweise
 Der größte Teil der Funktion von FridgeView findet innerhalb der Box statt, die in den Kühlschrank eingesetzt ist. Der andere Teil davon findet beim Bildschirm statt, der am Kühlschrank befestigt ist. Das Setup mit geöffneter Kühlschranktür (angenommen wird, dass der Kasten ein Kühlschrank ist) sollte dann in etwa so aussehen.
-![K_Offen](images\creative-visions\K_Offen.jpg)
+![Setup](images/creative-visions/Setup.jpg)
 
  Auf dem Bildschirm befindet sich ein Schalter, der betätigt wird. Nachdem der Schalter gedrückt wurde, wird ein Signal an die Box gesendet. Das Signal wird vom Arduino empfangen, welcher den LED-Ring aktiviert und ihn 20 Sekunden mit Strom versorgt. Damit, wie auf dem Foto zu sehen, der Kühlschrank beleuchtet wird.
- ![Licht_AN](images\creative-visions\Licht_AN.jpg)
+ ![Licht](images/creative-visions/Licht.jpg)
 
  Während dieser 20 Sekunden wird eine Kamera mit 160 Grad ausgelöst, die ein Foto des Inneren des Kühlschranks mit dem Licht des LED-Rings aufnimmt. Das Foto wird dann an das E-Paper gesendet, welches es jedoch nur kurzzeitig anzeigt, da es anschließend vom ESP32 bearbeitet wird. Dieser filtert die Graustufen aus dem Bild und stellt den Kontrast ein. Währenddessen flackert das Bild ein paar Mal auf dem E-Paper, bis es schließlich in seiner endgültigen Form angezeigt wird. Sobald das Bild angezeigt wird, sind 20 Sekunden vergangen und der LED-Ring im Kühlschrank schaltet sich aus. 
  ![Bild_auf_ePaper](images/creative-visions/Bild_auf_ePaper.jpg)
