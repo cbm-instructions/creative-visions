@@ -13,7 +13,6 @@ date:   2023-02-01 15:04:23
   + [Empfohlene Vorkenntisse](#empfohlene-vorkenntisse)
 * [Bauanleitung](#bauanleitung)
   + [Zuschneiden der Box](#zuschneiden-der-box)
-  + [Zusammensetzen der Box](#zusammensetzen-der-box)
   + [Das Display verpacken](#das-display-verpacken)
   + [Verkabelung](#verkabelung)
   + [Programmieren](#programmieren)
@@ -81,7 +80,6 @@ POV: Ein kluger Blick auf den Energieverbrauch in Ihrem Kühlschrank.
 
 - Inkspace 
 
-
 ### Empfohlene Vorkenntisse
 - Zur Programmierung wird nur die Arduino interne Programmiersprache verwendet. (C) 
 
@@ -91,14 +89,9 @@ POV: Ein kluger Blick auf den Energieverbrauch in Ihrem Kühlschrank.
 
 ## Bauanleitung
 
-
 ### Zuschneiden der Box
 Um eine robuste und feuchtigkeitsgeschützte Box für unsere Projektkomponenten zu schaffen, entschieden wir uns für Acrylglas als Material. Mit den Maßen 10cm x 5cm erfüllte es alle Anforderungen an Größe und Stabilität. Die Box wurde mithilfe der Seite https://www.festi.info/boxes.py/?language=de entworfen, wobei besonderes Augenmerk auf die Schaffung von Ausgängen für den Anschluss des ePapers (Wand 3) und der ESP32-Cam (Wand 1) lag. Die Stromversorgung wurde durch eine Power-Bank innerhalb der Box realisiert. Zu guter Letzt wurden die Löcher für den LED-Ring mit Hilfe des Standbohrers durchgeführt (Wand 1), dieser wurden anschließend in die Box eingefügt, um eine gute Beleuchtung für die Aufnahme der Bilder zu gewährleisten.  
 ![Test](/images/creative-visions/Box.jpg)
-
-
-### Zusammensetzen der Box
-
 
 ### Das Display verpacken
 
@@ -179,6 +172,8 @@ Um das ESP32-Cam Board mit dem PC zu verbinden, wird ein FTDI programmer benöti
 
 ### Alles zusammenbringen
 
+Zuerst wird der LED-Ring und die Linse der ESP32-CAM in der Wand 1 der Box eingesetzt. Das Flachbandkabel, sowie die Verbindungskabel zwischen Knopf und Arduino Nano werden durch die Öffnung in der Wand 3 geführt. Daraufhin können sämtliche Komponenten verkabelt werden und innerhalb der Box verstaut werden. Dafür wird empfohlen die Wände 2 und 4 sowie die Basis und das Top schon miteinander zu verkleben und Wände 1 und 3 erstmals mit Gummibändern zu befestigen. Zu letzt muss man noch den ePaper-Display mit dem Flachbandkabel und den Knopf mit den Verbindungskabeln verbinden.
+**Und schon ist der Fridgeview einsatzbereit!**
 
 ## Funktionsweise
 
