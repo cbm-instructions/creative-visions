@@ -143,7 +143,7 @@ Für den Arduino Nano sowie für den AI-Thinker ESP32-CAM Microcontroller wird d
 
 Folge diesen Schritten, um das ESP32 board in der Arduino IDE zu installieren:
 1) Öffne `File > Preferences`
-2) Gebe folgendes in das 'Additional Board Mananger URLs' Feld ein:
+2) Gebe folgendes in das `Additional Board Mananger URLs` Feld ein:
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 3) Öffne `Tools > Board > Boards Manager...`
 4) Suche nach ESP32 und Klicke den installieren Knopf für `ESP32 by Espressif Systems`
