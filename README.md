@@ -148,9 +148,9 @@ Folge diesen Schritten, um das ESP32 board in der Arduino IDE zu installieren:
 2) Gebe folgendes in das `Additional Board Mananger URLs` Feld ein:
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 3) Öffne `Tools > Board > Boards Manager...`
-4) Suche nach ESP32 und Klicke den installieren Knopf für `ESP32 by Espressif Systems`
+4) Suche nach ESP32 und Klicke den `install` Knopf für `ESP32 by Espressif Systems`
 
-Um das ESP32-Cam Board mit dem PC zu verbinden wird ein FTDI programmer benötigt. Folge dieser Schematik:
+Um das ESP32-Cam Board mit dem PC zu verbinden, wird ein FTDI programmer benötigt. Folge dieser Schematik:
 
 ![Verkabelung_FTDI](images/creative-visions/Verkabelung_FTDI.png)
 
@@ -161,7 +161,7 @@ Um das ESP32-Cam Board mit dem PC zu verbinden wird ein FTDI programmer benötig
 | U0T       | RX              |
 | U0R       | TX              |
 
-**Wichtig**: `GPIO 0` muss mit `GND` verbunden sein damit man Code hochladen kann.
+**Wichtig**: `GPIO 0` muss mit `GND` verbunden sein, damit man Code hochladen kann.
 
 1) Öffne `Tools > Board` in der Arduino IDE und wähle die AI-Thinker ESP32-CAM.
 2) Öffne `Tools > Port` und wähle den COM port, mit dem der ESP32-CAM verbunden ist. 
@@ -172,7 +172,7 @@ Um das ESP32-Cam Board mit dem PC zu verbinden wird ein FTDI programmer benötig
 - Adafruit seesaw Library
 - GxEPD
 5) Auf den Upload-Button klicken.
-6) Falls man mehrere Punkte beim Debbuging Fenster sieht auf den Reset-Knopf der ESP32-CAM drücken.
+6) Falls man mehrere Punkte beim Debbuging Fenster sieht, muss man auf den Reset-Knopf der ESP32-CAM drücken.
 7) Sobald man `Done Uploading`sieht, kann die ESP32-CAM vom FTDI programmer entbunden werden und eingebaut werden.
 
 ### Alles zusammenbringen
