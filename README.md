@@ -67,6 +67,8 @@ POV: Ein kluger Blick auf den Energieverbrauch in Ihrem Kühlschrank.
 
 - USB-Kabel 
 
+- Relay
+
 ### Werkzeug
 - Bohrer 
 
@@ -75,7 +77,7 @@ POV: Ein kluger Blick auf den Energieverbrauch in Ihrem Kühlschrank.
 - Lasercutter 
 
 ### Software
-- IDE Arduino  
+- Arduino IDE
 
 - Inkspace 
 
