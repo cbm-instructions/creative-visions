@@ -115,9 +115,9 @@ Dann legt man zuerst die das Display mittig auf die durchsichtige Acryl-Platte. 
 
 
 ### Verkabelung
-![Verkabelung](images/creative-visions/Verschaltung.jpg)
+![Verkabelung](images/creative-visions/Verkabelung.jpg)
 
-| ESP32-CAM | ePaper Display |
+| ESP32-CAM | ePaper-Connector |
 |-----------|----------------|
 | 3v3       | 3v3            |
 | GND       | GND            |
@@ -127,6 +127,8 @@ Dann legt man zuerst die das Display mittig auf die durchsichtige Acryl-Platte. 
 | IO15      | CS             |
 | IO13      | MOSI           |
 | IO12      | RST            |
+
+Der ePaper-Connector wird am über ein Flachbandkabel mit dem ePaper-Display verbunden.
 
 ### Programmieren
 
