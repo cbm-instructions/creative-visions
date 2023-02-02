@@ -150,7 +150,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 Um das ESP32-Cam Board mit dem PC zu verbinden wird ein FTDI programmer benötigt. Folge dieser Schematik:
 
-![Verkabelung_FTDI](images/creative-visions/Verschaltung_FTDI.jpg)
+![Verkabelung_FTDI](images/creative-visions/Verschaltung_FTDI.png)
 
 | ESP32-CAM | FTDI programmer |
 |-----------|-----------------|
