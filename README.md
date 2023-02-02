@@ -183,8 +183,9 @@ Der größte Teil der Funktion von FridgeView findet innerhalb der Box statt, di
  ![Licht](images/creative-visions/Licht.jpg)
 
  Während dieser 20 Sekunden wird eine Kamera mit 160 Grad ausgelöst, die ein Foto des Inneren des Kühlschranks mit dem Licht des LED-Rings aufnimmt. Das Foto wird dann an das E-Paper gesendet, welches es jedoch nur kurzzeitig anzeigt, da es anschließend vom ESP32 bearbeitet wird. Dieser filtert die Graustufen aus dem Bild und stellt den Kontrast ein. Währenddessen flackert das Bild ein paar Mal auf dem E-Paper, bis es schließlich in seiner endgültigen Form angezeigt wird. Sobald das Bild angezeigt wird, sind 20 Sekunden vergangen und der LED-Ring im Kühlschrank schaltet sich aus. 
- 
+
  ![Bild_auf_ePaper](images/creative-visions/Bild_auf_ePaper.jpg)
+ 
  Es wird gewartet, bis erneut der Schalter gedrückt wird und das Verfahren von vorne beginnt.
 
 
