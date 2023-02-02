@@ -9,11 +9,7 @@
 #define PIN_LED 6
 #define PIN_BTN 7
 
-
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN_LED, NEO_GRB + NEO_KHZ800);
-
-
-
 
 void setup() {
   Serial.begin(9600);
@@ -37,7 +33,6 @@ void loop() { // Set all pixel colors to 'off'
     for(int i=0; i< strip.numPixels(); i++) {
       strip.setPixelColor(i, strip.Color(150, 150, 150));
     }
- // Set all pixel colors to 'off'
   delay(5);
   strip.show();
   delay(20000);
