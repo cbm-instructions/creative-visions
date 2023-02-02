@@ -43,6 +43,8 @@ POV: Ein kluger Blick auf den Energieverbrauch in Ihrem Kühlschrank.
 
 - 1 x ESP32 Cam 
 
+- FTDI programmer
+
 - E-Paper-Display 
 
 - Powerbank 
@@ -124,8 +126,52 @@ Dann legt man zuerst die das Display mittig auf die durchsichtige Acryl-Platte. 
 | IO13      | MOSI           |
 | IO12      | RST            |
 
-### Den Arduino programmieren
+### Programmieren
 
+Für den Arduino Nano sowie für den AI-Thinker ESP32-CAM Microcontroller wird die Arduino IDE verwendet.
+
+#### Arduino Nano
+
+1) Öffne `Tools > Board` in der Arduino IDE und wähle den Arduino Nano.
+2) Öffne `Tools > Port` und wähle den COM port, mit dem der Arduino Nano verbunden ist. 
+3) Öffne unter `File >> open...` die `Arduino-Nano.io` in dem `Arduino-Nano Ordner`, den man in diesem Repository findet.
+4) Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools >> Manage Libraries...`) installiert werden:
+- Adafruit NeoPixel
+5. Auf den Upload-Button klicken
+
+#### AI-Thinker ESP32-CAM
+
+Folge diesen Schritten, um das ESP32 board in der Arduino IDE zu installieren:
+1) Öffne `File > Preferences`
+2) Gebe folgendes in das 'Additional Board Mananger URLs' Feld ein:
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+3) Öffne `Tools > Board > Boards Manager...`
+4) Suche nach ESP32 und Klicke den installieren Knopf für `ESP32 by Espressif Systems`
+
+Um das ESP32-Cam Board mit dem PC zu verbinden wird ein FTDI programmer benötigt. Folge dieser Schematik:
+
+![Verkabelung_FTDI](images/creative-visions/Verschaltung_FTDI.jpg)
+
+| ESP32-CAM | FTDI programmer |
+|-----------|-----------------|
+| 5v        | VCC             |
+| GND       | GND             |
+| U0T       | RX              |
+| U0R       | TX              |
+
+**Wichtig**: `GPIO 0` muss mit `GND` verbunden sein damit man Code hochladen kann.
+
+1) Öffne `Tools > Board` in der Arduino IDE und wähle die AI-Thinker ESP32-CAM.
+2) Öffne `Tools > Port` und wähle den COM port, mit dem der ESP32-CAM verbunden ist. 
+3) Öffne unter `File >> open...` die `ESP32-CAM.ino` in dem `ESP32-CAM` Ordner, den man in diesem Repository findet.
+4) Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools >> Manage Libraries...`) installiert werden:
+- Adafruit BusIO
+- Adafruit GFX Library
+- Adafruit seesaw Library
+- GxEPD
+5) Auf den Upload-Button klicken.
+6) Falls man mehrere Punkte beim Debbuging Fenster sieht auf den Reset-Knopf der ESP32-CAM drücken.
+7) Sobald man `Done Uploading`sieht, kann die ESP32-CAM vom FTDI programmer entbunden werden und eingebaut werden.
 
 ### Alles zusammenbringen
 
