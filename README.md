@@ -22,7 +22,7 @@ date:   2023-02-01 15:04:23
 <!-- TOC -->
 
 Hast du es satt, jedes Mal den Kühlschrank zu öffnen, um nachzusehen, was du noch im Haus hast? Mit FridgeView von CreativeVision hast du immer einen Überblick über deine Vorräte, ohne den Kühlschrank zu öffnen. Die eingebaute Kamera projiziert das Innere des Kühlschranks auf ein E-Paper-Display an der Vorderseite, so dass du jederzeit weißt, was du hast und was du noch brauchst. Spare Zeit, Energie und vermeide unnötige Einkäufe mit FridgeView.  
-![Test](/images/creative-visions/Passivbetrieb.png)
+![Test](/images/creative-visions/Passivbetrieb.png) btest
 ![Test](/images/creative-visions/Aktivbetrieb.png)
 
 
@@ -176,6 +176,18 @@ Zuerst wird der LED-Ring und die Linse der ESP32-CAM in der Wand 1 der Box einge
 **Und schon ist der Fridgeview einsatzbereit!**
 
 ## Funktionsweise
+Der größte Teil der Funktion von FridgeView findet innerhalb der Box statt, die in den Kühlschrank eingesetzt ist. Der andere Teil davon findet beim Bildschirm statt, der am Kühlschrank befestigt ist. Das Setup mit geöffneter Kühlschranktür (angenommen wird, dass der Kasten ein Kühlschrank ist) sollte dann in etwa so aussehen.
+![Setup](images/creative-visions/Setup.jpg)
+
+ Auf dem Bildschirm befindet sich ein Schalter, der betätigt wird. Nachdem der Schalter gedrückt wurde, wird ein Signal an die Box gesendet. Das Signal wird vom Arduino empfangen, welcher den LED-Ring aktiviert und ihn 20 Sekunden mit Strom versorgt. Damit, wie auf dem Foto zu sehen, der Kühlschrank beleuchtet wird.
+ ![Licht](images/creative-visions/Licht.jpg)
+
+ Während dieser 20 Sekunden wird eine Kamera mit 160 Grad ausgelöst, die ein Foto des Inneren des Kühlschranks mit dem Licht des LED-Rings aufnimmt. Das Foto wird dann an das E-Paper gesendet, welches es jedoch nur kurzzeitig anzeigt, da es anschließend vom ESP32 bearbeitet wird. Dieser filtert die Graustufen aus dem Bild und stellt den Kontrast ein. Währenddessen flackert das Bild ein paar Mal auf dem E-Paper, bis es schließlich in seiner endgültigen Form angezeigt wird. Sobald das Bild angezeigt wird, sind 20 Sekunden vergangen und der LED-Ring im Kühlschrank schaltet sich aus. 
+
+ ![Bild_auf_ePaper](images/creative-visions/Bild_auf_ePaper.jpg)
+ 
+ Es wird gewartet, bis erneut der Schalter gedrückt wird und das Verfahren von vorne beginnt.
+
 
 
 ## Ausblick
