@@ -111,7 +111,7 @@ Dann legt man zuerst die das Display mittig auf die durchsichtige Acryl-Platte. 
 
 
 ### Verkabelung
-![Verkabelung](images/creative-visions/Verschaltung_Steckplatine.jpg)
+![Verkabelung](images/creative-visions/Verschaltung.jpg)
 
 | ESP32-CAM | ePaper Display |
 |-----------|----------------|
